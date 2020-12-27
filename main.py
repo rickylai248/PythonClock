@@ -11,13 +11,13 @@ from time import strftime
 root = Tk();
 root.title("PythonClock")
 
-def findTime():
+def time():
     string = strftime('%H:%M:%S %p')
     label.config(text=string)
     label.after(1000, time)
 
 label = Label(root, font=("Times", 24), background = "white", foreground = "black")
 label.pack(anchor='center')
-findTime()
+time()
 
 mainloop()
