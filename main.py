@@ -6,7 +6,7 @@ from time import strftime
 
 # File initialization testing statements
 #msg = "Hello World"
-#print(msg)
+# print(msg)
 #
 
 root = Tk();
