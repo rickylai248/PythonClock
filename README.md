@@ -1,4 +1,5 @@
-# PythonClock
+# Python Clock
+
 Implemented the Clock visualization program after importing from tkinter and time
 Able to view the current time and change the font alongside background colour to your liking!
 i.e. "Times" = Times New Roman with Font size in pixels
